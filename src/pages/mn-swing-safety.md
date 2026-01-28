@@ -2,7 +2,7 @@
 title: 'MN Swing Safety'
 description: 'Description.'
 date: "Last Modified"
-permalink: /mn-swing-safety/index.html
+permalink: /organizations/mn-swing-safety/index.html
 layout: page
 ---
 The mission of MN Swing Safety is to build a safe, just culture within the Minnesota west coast swing community through education, conversation, and trauma-informed intervention.
