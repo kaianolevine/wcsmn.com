@@ -2,7 +2,7 @@
 title: 'MN WCS Dance Club'
 description: 'Description.'
 date: "Last Modified"
-permalink: /mn-wcs-dance-club/index.html
+permalink: /organizations/mn-wcs-dance-club/index.html
 layout: page
 ---
 <div style="margin-top: 12px;">

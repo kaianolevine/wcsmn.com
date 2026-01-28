@@ -5,10 +5,6 @@ export default {
       url: '/index.html'
     },
     {
-      text: 'Template',
-      url: '/template/'
-    },
-    {
       text: 'Community Resources',
       url: '/community-resources/'
     },

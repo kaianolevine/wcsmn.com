@@ -2,7 +2,7 @@
 title: 'SWINGesota'
 description: 'Description.'
 date: "Last Modified"
-permalink: /swingesota/index.html
+permalink: /organizations/swingesota/index.html
 layout: page
 ---
 Swingesota runs weekly dances every Wednesday as well as an annual Winter and annual Summer event. For more information please check out [https://www.swingesota.com/]

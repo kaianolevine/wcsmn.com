@@ -2,7 +2,7 @@
 title: 'TC Rebels'
 description: 'Description.'
 date: "Last Modified"
-permalink: /tc-rebels/index.html
+permalink: /organizations/tc-rebels/index.html
 layout: page
 ---
 Paragraph Here

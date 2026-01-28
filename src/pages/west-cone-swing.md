@@ -2,7 +2,7 @@
 title: 'West Cone Swing'
 description: 'Description.'
 date: "Last Modified"
-permalink: /west-cone-swing/index.html
+permalink: /organizations/west-cone-swing/index.html
 layout: page
 ---
 West Cone Swing hosts quarterly West Coast Swing dances with ice cream socials. For more information please check out:

@@ -2,7 +2,7 @@
 title: 'Swing in the North'
 description: 'Description.'
 date: "Last Modified"
-permalink: /swing-in-the-north/index.html
+permalink: /organizations/swing-in-the-north/index.html
 layout: page
 ---
 Swing in the North runs weekly practices, classes, the monthly Brunch Dance, and special events. For more information, please visit: [https://swinginthenorth.org/]
