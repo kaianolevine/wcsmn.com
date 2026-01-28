@@ -11,6 +11,10 @@ The mission of MN Swing Safety is to build a safe, just culture within the Minne
 
 Contact Us - [MNSwingSafety@gmail.com]
 
+<div style="margin-top: 12px;">
+  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&showPrint=0&title=MN%20Swing%20Safety&mode=AGENDA&src=bW5zd2luZ3NhZmV0eUBnbWFpbC5jb20&color=%23c0ca33" style="border:solid 1px #777" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+</div>
+
 Leadership Team
 Isabella Armour (they/them)- Isabella has been a member of the MN WCS scene since August 2017 and founded the MN Swing Safety System in Summer 2024. Isabella has a background in teaching and community organization within the local ballroom dance and west coast swing communities. They are a certified, trauma-informed life coach and are passionate about creating space for all members of the dance community to feel heard and supported. Fun fact: Isabella plays the clarinet!
 Jess Skjonsby, MPH (she/her) - Jess has been involved in the MN WCS scene since February 2023, joining the MN Swing Safety Leadership team in Fall 2024. She has a background in conflict resolution, crisis response, and de-escalation practices through her previous experience serving as an Area Coordinator in the Residence Life department at St. Catherine University. Jess is passionate about developing ways to grow the MN WCS community, as well as share resources with others looking to create safety systems within their own communities. Fun Fact: Jess has never eaten at Taco Bell!
@@ -36,6 +40,3 @@ Talia Tan (she/her)
 Taylor Jaquith (he/him)
 Ted Peters (he/him)
 Zach Gruenberg (he/him)
-<div style="margin-top: 12px;">
-  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&showPrint=0&title=MN%20Swing%20Safety&mode=AGENDA&src=bW5zd2luZ3NhZmV0eUBnbWFpbC5jb20&color=%23c0ca33" style="border:solid 1px #777" width="600" height="300" frameborder="0" scrolling="no"></iframe>
-</div>
