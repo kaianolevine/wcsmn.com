@@ -6,7 +6,14 @@ permalink: /organizations/mn-wcs-dance-club/index.html
 layout: page
 ---
 <div style="margin-top: 12px;">
-  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&mode=AGENDA&showPrint=0&showTabs=0&src=M2FiYWE3ZmEwMWVhM2YwM2NjMmFjNjI2OGZkNWY3MDU4NDI3NGQ5OGEzZmYzMGIwMWU1MTQxNTc5ZTczOGVlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e4c441" style="border:solid 1px #777" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&mode=AGENDA&showPrint=0&showTabs=0&src=M2FiYWE3ZmEwMWVhM2YwM2NjMmFjNjI2OGZkNWY3MDU4NDI3NGQ5OGEzZmYzMGIwMWU1MTQxNTc5ZTczOGVlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e4c441" 
+    style="border:solid 1px #777; display: block; margin-inline: auto;"  
+    width="600" 
+    height="300" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
 </div>
 
 The purpose of the Minnesota West Coast Swing Dance Club since the Club’s inception on March 21, 1982 has been to preserve, promote, and expand West Coast Swing Dancing. The Club was informally operated that first year by a committee. They danced in various places, i.e., Capp Towers, O’Gara’s, Good Templar Hall, Kellogg Square, Radisson Hotel and others. A dance was held about once every six weeks.

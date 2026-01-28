@@ -9,7 +9,7 @@ Paragraph Here
 <div style="margin-top: 12px;">
   <iframe
     src=""
-    style="border:0; width:100%; height:700px;"
+    style="border:solid 1px #777; display: block; margin-inline: auto;" 
     frameborder="0"
     scrolling="no">
   </iframe>
