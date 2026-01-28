@@ -4,7 +4,7 @@ export default async function () {
 
   return {
     // "version" for display on the site
-    version: process.env.SITE_VERSION || shortSha,
+    version: process.env.SITE_VERSION || "dev",
 
     // extra useful metadata
     commit: shortSha,
