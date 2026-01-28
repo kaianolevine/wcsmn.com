@@ -9,10 +9,8 @@ Paragraph Here
 <div style="margin-top: 12px;">
   <iframe 
     src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&showPrint=0&title=TC%20Rebels&mode=AGENDA&src=dHdpbmNpdGllcy5yZWJlbHMyQGdtYWlsLmNvbQ&color=%234285f4" 
-    style="border:solid 1px #777; display: block; margin-inline: auto;" 
-    width="600" 
-    height="300" 
-    frameborder="0" 
+    style="border:0; width:100%; height:700px;"
+    frameborder="0"
     scrolling="no">
   </iframe>
 </div>

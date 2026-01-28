@@ -8,10 +8,8 @@ layout: page
 <div style="margin-top: 12px;">
   <iframe 
     src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&mode=AGENDA&showPrint=0&showTabs=0&src=M2FiYWE3ZmEwMWVhM2YwM2NjMmFjNjI2OGZkNWY3MDU4NDI3NGQ5OGEzZmYzMGIwMWU1MTQxNTc5ZTczOGVlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e4c441" 
-    style="border:solid 1px #777; display: block; margin-inline: auto;"  
-    width="600" 
-    height="300" 
-    frameborder="0" 
+    style="border:0; width:100%; height:700px;"
+    frameborder="0"
     scrolling="no">
   </iframe>
 </div>
