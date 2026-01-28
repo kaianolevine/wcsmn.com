@@ -1,11 +1,8 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Eleventy Excellent'
+title: 'WCS Minnesota'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
-blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
 <div class="wrapper">
@@ -20,35 +17,19 @@ blog:
     <div class="prose wrapper flow">
       <h2 id="an-eleventy-starter">An Eleventy starter</h2>
       <p>
-        Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
-        incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
-        layout. The goal is to develop frontends that provide a great experience across all devices,
-        connection speeds, and usage contexts.
+Hello and welcome! This is an independent, community resource, for dancers to find all the information that may want or need 
+relating to West Coast Swing in the Minnesota area. This project is just starting out, and if you would like to contribute, 
+or have feedback, please use the contact form below or email us (at minnesota.wcs@gmail.com). Below is a calendar with all 
+the events public WCS events in MN. If you notice anything missing, please feel free to submit the information in any of our 
+contact forms. You may also check out the Community Resources Page to connect with local dancers.
       </p>
-      <p>
-        <strong>This is <a href="https://github.com/madrilene/eleventy-excellent/">version {{ pkg.version }}</a>.</strong> I keep a
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v1">branch of v1</a>,
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v2">v2</a> and <a href="https://github.com/madrilene/eleventy-excellent/tree/v3">v3</a>. I  tried to <a href="/get-started/#docs-lol">document most features and methodologies</a>.
-      </p>
+      <iframe 
+        src="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FChicago&showPrint=0&title=WCS%20MN&mode=MONTH&src=bWlubmVzb3RhLndjc0BnbWFpbC5jb20&src=M2FiYWE3ZmEwMWVhM2YwM2NjMmFjNjI2OGZkNWY3MDU4NDI3NGQ5OGEzZmYzMGIwMWU1MTQxNTc5ZTczOGVlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MzkwYTRhZDM0NzM4ODBjOWZmZWVlODRlODg2NjJhNGE0ZWM4NGRlNmU1MmZjZDFlMjQwYzc4NWNhMDYyMmIzYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MmVlNTU5NDVhYTRhNGQ3MDZkOGUyMDk0MDJhN2RmZmNlOTdmZmQ4ZWIwOGUzYjg3YjhmMDdiMWI2N2RjMDlmZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=bW5zd2luZ3NhZmV0eUBnbWFpbC5jb20&src=c3dpbmdpbnRoZW5vcnRobW5AZ21haWwuY29t&src=dHdpbmNpdGllcy5yZWJlbHMyQGdtYWlsLmNvbQ&color=%23e4c441&color=%234285f4&color=%23f09300&color=%23ad1457&color=%23c0ca33&color=%238e24aa&color=%234285f4" 
+        style="border:solid 1px #777" 
+        width="900" height="800" 
+        frameborder="0" 
+        scrolling="no"></iframe>
       <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
     </div>
   </article>
-
-  <section class="full | region">
-    <div class="prose wrapper flow">
-      <h2>{{ blog.title }}</h2>
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
-      <div class="feature |  region region-space-l">
-        <custom-masonry layout="50-50">
-          {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-            {% set headingLevel = "h3" %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
 </div>
