@@ -1,8 +1,8 @@
 ---
-title: 'Template'
+title: 'Swing in the North'
 description: 'Description.'
 date: "Last Modified"
-permalink: /template/index.html
+permalink: /swing-in-the-north/index.html
 layout: page
 ---
 Paragraph Here

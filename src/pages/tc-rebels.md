@@ -1,8 +1,8 @@
 ---
-title: 'Template'
+title: 'TC Rebels'
 description: 'Description.'
 date: "Last Modified"
-permalink: /template/index.html
+permalink: /tc-rebels/index.html
 layout: page
 ---
 Paragraph Here

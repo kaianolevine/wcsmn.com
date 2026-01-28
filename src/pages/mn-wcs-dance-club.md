@@ -1,8 +1,8 @@
 ---
-title: 'Template'
+title: 'MN WCS Dance Club'
 description: 'Description.'
 date: "Last Modified"
-permalink: /template/index.html
+permalink: /mn-wcs-dance-club/index.html
 layout: page
 ---
 Paragraph Here
