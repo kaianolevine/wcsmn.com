@@ -1,10 +1,6 @@
 export default {
   top: [
     {
-      text: 'WCS MN',
-      url: '/index.html'
-    },
-    {
       text: 'Community Resources',
       url: '/community-resources/'
     },

@@ -21,7 +21,7 @@ export const creator = {
   github: 'https://github.com/kaianolevine'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
-export const themeColor = '#dd4462'; // used in manifest, for example primary color value
+export const themeColor = '#34495e'; // used in manifest, for example primary color value
 export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light colors are prefered. best use value set for light bg
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
