@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.1.0...v1.2.0) (2026-01-28)
+
+
+### Features
+
+* Moving old files, adding website assets ([d469573](https://github.com/kaianolevine/wcsmn.com/commit/d469573fd47e02207a6759ea9e8bd9d452b1968c))
+
+
+### Bug Fixes
+
+* build ([56ae7e9](https://github.com/kaianolevine/wcsmn.com/commit/56ae7e92401170fdba3ecb52ad07a2a6958c60c9))
+
 ## [1.1.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.0.0...v1.1.0) (2026-01-28)
 
 
