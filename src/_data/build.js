@@ -8,7 +8,7 @@ export default async function () {
   // Only show the git tag (SITE_VERSION) on main; for preview branches, show a commit-based version.
   const version = isMain
     ? (process.env.SITE_VERSION || shortSha)
-    : `${branch}@${shortSha}`;
+    : `dev@${branch}`;
 
   return {
     // "version" for display on the site
