@@ -36,9 +36,9 @@
   --color-text: var(--color-gray-800);
   --color-bg: var(--color-gray-100);
 
-  --color-primary: var(--color-pink);
-  --color-secondary: var(--color-blue);
-  --color-tertiary: var(--color-gold);
+  --color-primary: #0ea5a4;    /* teal */
+  --color-secondary: #4f46e5;  /* indigo */
+  --color-tertiary: #22c55e;   /* green */
 
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
@@ -51,9 +51,9 @@
     --color-text: var(--color-gray-100);
     --color-bg: var(--color-gray-800);
 
-    --color-primary: var(--color-pink-subdued);
-    --color-secondary: var(--color-blue-subdued);
-    --color-tertiary: var(--color-gold-subdued);
+    --color-primary: #14b8a6;    /* teal (dark) */
+    --color-secondary: #6366f1;  /* indigo (dark) */
+    --color-tertiary: #4ade80;   /* green (dark) */
 
     --color-text-accent: var(--color-gray-300);
     --color-bg-accent: var(--color-gray-700);
@@ -64,9 +64,9 @@
   --color-text: var(--color-gray-100);
   --color-bg: var(--color-gray-800);
 
-  --color-primary: var(--color-pink-subdued);
-  --color-secondary: var(--color-blue-subdued);
-  --color-tertiary: var(--color-gold-subdued);
+  --color-primary: #14b8a6;    /* teal (dark) */
+  --color-secondary: #6366f1;  /* indigo (dark) */
+  --color-tertiary: #4ade80;   /* green (dark) */
 
   --color-text-accent: var(--color-gray-300);
   --color-bg-accent: var(--color-gray-700);
