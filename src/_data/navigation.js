@@ -1,10 +1,6 @@
 export default {
   top: [
     {
-      text: 'WCS MN',
-      url: '/index.html'
-    },
-    {
       text: 'Community Resources',
       url: '/community-resources/'
     },
@@ -44,21 +40,5 @@ export default {
     },
   ],
   bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    },
-    {
-      text: 'Accessibility',
-      url: '/accessibility/'
-    }
   ]
 };
