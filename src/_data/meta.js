@@ -1,24 +1,24 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Eleventy Excellent';
+export const siteName = 'wcsmn';
 export const siteDescription = 'Eleventy starter for building modern, resilient websites';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
 export const author = {
-  name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+  name: 'Kaiano Levine', // i.e. Kaiano Levine - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-  website: 'https://www.lenesaile.com', // i.e. https.://www.lenesaile.com - the personal site of the author
-  fediverse: '@lene@front-end.social' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  email: 'kaiano.levine@gmail.com', // i.e. kaiano.levine@gmail.com - email of the author
+  website: 'https://www.kaianolevine.com', // i.e. https://www.kaianolevine.com - the personal site of the author
+  fediverse: '' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 };
 export const creator = {
-  name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
-  social: 'https://front-end.social/@lene'
+  name: 'Kaiano Levine', // i.e. Kaiano Levine - creator's (developer) name.
+  email: 'kaiano.levine@gmail.com',
+  website: 'https://www.kaianolevine.com',
+  github: 'https://github.com/kaianolevine'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
