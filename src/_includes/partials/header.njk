@@ -3,8 +3,12 @@
 
   <div class="repel ontop gutter-s">
     <a href="/" class="logo | cluster" {{ indicateActiveHome }}>
-      {% mmwcs "wcs_mn_logo_blue" %}
-
+      <img
+        src="/assets/mnwcs/wcs_mn_logo_blue.png"
+        alt="{{ meta.siteName }} logo"
+        class="site-logo"
+        loading="eager"
+      />
       <span class="font-display">{{ meta.siteName }}</span>
     </a>
     {% include "partials/main-nav.njk" %}
