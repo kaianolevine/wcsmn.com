@@ -11,3 +11,7 @@ src/_includes/scripts
 
 # secret data
 .env
+
+# OS generated files
+.DS_Store
+**/.DS_Store
