@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.0...v1.2.1) (2026-01-29)
+
+
+### Bug Fixes
+
+* adding removed file ([e6413c5](https://github.com/kaianolevine/wcsmn.com/commit/e6413c52cf6da33ed4869f401594566cfd2756d5))
+
 ## [1.2.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.1.0...v1.2.0) (2026-01-28)
 
 
