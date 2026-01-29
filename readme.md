@@ -10,7 +10,7 @@ The project is intentionally kept **simple, static-first, and low-maintenance**,
 
 The site is automatically deployed from the `main` branch and available at:
 
-➡️ **https://wcsmn-com.pages.dev/**
+➡️ <a href="https://wcsmn-com.pages.dev/" target="_blank" rel="noopener noreferrer">https://wcsmn-com.pages.dev/</a>
 
 This deployment is managed by **Cloudflare Pages** and updates on every successful build.
 
