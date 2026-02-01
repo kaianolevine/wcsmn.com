@@ -2,14 +2,18 @@
   <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
   <div class="repel ontop gutter-s">
-    <a href="/" class="logo" {{ indicateActiveHome }}>
+    <a href="/" class="logo | cluster" {{ indicateActiveHome }}>
       <img
-        src="/assets/mnwcs/wcs_mn_logo_blue.png"
-        alt="{{ meta.siteName }} logo"
         class="site-logo"
+        src="/assets/images/favicon/favicon.svg"
+        alt=""
+        width="30"
+        height="30"
         loading="eager"
-        style="background: white; padding: 0.25rem; border-radius: 0.25rem;"
+        decoding="async"
       />
+
+      <span class="font-display">{{ meta.siteName }}</span>
     </a>
     {% include "partials/main-nav.njk" %}
   </div>
