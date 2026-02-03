@@ -3,7 +3,7 @@ title: 'Contact'
 description: 'Contact.'
 date: "Last Modified"
 permalink: /contact/index.html
-layout: page-center
+layout: page
 ---
 <style>
   .contact-form {
@@ -59,7 +59,7 @@ layout: page-center
 <div class="contact-form">
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <form method="POST" action="https://api.kaianolevine.com/api/contact">
-  <input type="hidden" name="originSite" value="kaianolevine.com" />
+  <input type="hidden" name="originSite" value="wcsmn.com" />
   <label>
     First name
     <input type="text" name="firstName" required />
