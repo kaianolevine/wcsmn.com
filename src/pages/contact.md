@@ -7,12 +7,13 @@ layout: page
 ---
 <style>
   .contact-form {
-    border: 1px solid var(--muted-border, #ddd);
+    border: 1px solid var(--pico-muted-border-color, var(--muted-border-color, var(--muted-border, #ddd)));
     border-radius: 0.75rem;
     padding: 1.5rem 1.5rem 0.5rem;
     max-width: 820px;
     margin: 2rem auto 1.5rem;
-    background: var(--surface-1, transparent);
+    background: var(--pico-card-background-color, var(--card-background-color, var(--surface-1, transparent)));
+    box-shadow: var(--pico-card-box-shadow, none);
   }
   .contact-form form {
     display: grid;
