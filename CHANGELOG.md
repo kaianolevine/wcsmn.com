@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.1...v1.3.0) (2026-02-03)
+
+
+### Features
+
+* contact form functional ([36213ac](https://github.com/kaianolevine/wcsmn.com/commit/36213acd304ed2148201abe280762f3f6dea7586))
+* contact form functional ([4e5ea17](https://github.com/kaianolevine/wcsmn.com/commit/4e5ea175291f07352547a37168485a3319dd7a2e))
+
 ## [1.2.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.0...v1.2.1) (2026-01-29)
 
 
