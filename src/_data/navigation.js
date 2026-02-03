@@ -36,7 +36,7 @@ export default {
     },
     {
       text: 'Contact Us',
-      url: '/contact-us/'
+      url: '/contact/'
     },
   ],
   bottom: [
