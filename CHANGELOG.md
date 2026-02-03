@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.0...v1.3.1) (2026-02-03)
+
+
+### Bug Fixes
+
+* color anf formatting ([e9ed3c6](https://github.com/kaianolevine/wcsmn.com/commit/e9ed3c6341f1c1944c4589c27836180700569760))
+
 ## [1.3.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.1...v1.3.0) (2026-02-03)
 
 
