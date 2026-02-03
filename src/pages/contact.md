@@ -28,6 +28,25 @@ layout: page
     gap: 0.25rem;
   }
 
+  .contact-form input,
+  .contact-form textarea {
+    background-color: var(
+      --pico-form-element-background-color,
+      var(--pico-card-background-color, var(--card-background-color, transparent))
+    );
+    color: var(--pico-form-element-color, var(--color, inherit));
+    border-color: var(
+      --pico-form-element-border-color,
+      var(--pico-muted-border-color, var(--muted-border-color, #ddd))
+    );
+  }
+
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: var(--pico-muted-color, var(--muted-color, #64748b));
+  }
+
+
   .contact-form .full-width {
     grid-column: 1 / -1;
   }
@@ -60,7 +79,7 @@ layout: page
 <div class="contact-form">
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <form method="POST" action="https://api.kaianolevine.com/api/contact">
-  <input type="hidden" name="originSite" value="wcsmn.com" />
+  <input type="hidden" name="originSite" value="kaianolevine.com" />
   <label>
     First name
     <input type="text" name="firstName" required />
