@@ -3,7 +3,7 @@ title: 'Thank you'
 description: 'Contact form submission received.'
 date: "Last Modified"
 permalink: /contact/thanks/index.html
-layout: page-center
+layout: page
 ---
 
 **Thanks — We got your message!**
