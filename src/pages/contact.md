@@ -1,0 +1,97 @@
+---
+title: 'Contact'
+description: 'Contact.'
+date: "Last Modified"
+permalink: /contact/index.html
+layout: page-center
+---
+<style>
+  .contact-form {
+    border: 1px solid var(--muted-border, #ddd);
+    border-radius: 0.75rem;
+    padding: 1.5rem 1.5rem 0.5rem;
+    max-width: 820px;
+    margin: 2rem auto 1.5rem;
+    background: var(--surface-1, transparent);
+  }
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 1.5rem;
+    align-items: start;
+  }
+
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .contact-form .full-width {
+    grid-column: 1 / -1;
+  }
+
+  .contact-form .cf-turnstile {
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin-top: 0.25rem;
+  }
+
+  .contact-form button {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 0.25rem;
+  }
+
+  .contact-form .contact-note {
+    max-width: 720px;
+    margin: 0.75rem auto 2rem;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .contact-form form {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="contact-form">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<form method="POST" action="https://api.kaianolevine.com/api/contact">
+  <input type="hidden" name="originSite" value="kaianolevine.com" />
+  <label>
+    First name
+    <input type="text" name="firstName" required />
+  </label>
+
+  <label>
+    Last name
+    <input type="text" name="lastName" required />
+  </label>
+
+  <label class="full-width">
+    Reply-to email
+    <input type="email" name="replyTo" required />
+  </label>
+
+  
+  <div style="display:none" aria-hidden="true">
+    <label>
+      Website
+      <input type="text" name="website" tabindex="-1" autocomplete="off" />
+    </label>
+  </div>
+
+  <label class="full-width">
+    Message
+    <textarea name="message" rows="6" required></textarea>
+    <p class="text-step-min-2">
+      This form is protected against spam. If submission fails, please refresh and try again.
+    </p>
+  </label>
+
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAACXUS6RYhJCvPzZg"></div>
+  <button type="submit" class="button" data-button-variant="primary">Send</button>
+</form>
+</div>
