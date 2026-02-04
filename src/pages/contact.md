@@ -78,7 +78,7 @@ layout: page
 
 <div class="contact-form">
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<form method="POST" action="https://api.kaianolevine.com/api/contact">
+<form method="POST" action="https://api.kaianolevine.com/api/v1/contact">
   <input type="hidden" name="originSite" value="kaianolevine.com" />
   <label>
     First name

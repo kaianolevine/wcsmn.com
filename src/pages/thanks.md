@@ -2,12 +2,10 @@
 title: 'Thank you'
 description: 'Contact form submission received.'
 date: "Last Modified"
-permalink: /contact/thanks/index.html
+permalink: /thanks/index.html
 layout: page
 ---
 
-**Thanks — We got your message!**
+**Thanks — I got your message!**
 
-We will reply to the email address you provided as soon as we can.
-
-[Back to Contact](/contact/)
+[Back to Home](/index.html)
