@@ -80,7 +80,7 @@ layout: page
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <form method="POST" action="https://api.kaianolevine.com/api/v1/contact">
   <input type="hidden" name="originSite" value="wcsmn.com" />
-  <input type="hidden" name="subjectType" value="contact" />
+  <input type="hidden" name="type" value="contact" />
   <label>
     First name
     <input type="text" name="firstName" required />
