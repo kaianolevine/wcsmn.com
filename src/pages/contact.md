@@ -79,7 +79,8 @@ layout: page
 <div class="contact-form">
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <form method="POST" action="https://api.kaianolevine.com/api/v1/contact">
-  <input type="hidden" name="originSite" value="kaianolevine.com" />
+  <input type="hidden" name="originSite" value="wcsmn.com" />
+  <input type="hidden" name="subjectType" value="contact" />
   <label>
     First name
     <input type="text" name="firstName" required />
@@ -92,7 +93,7 @@ layout: page
 
   <label class="full-width">
     Reply-to email
-    <input type="email" name="replyTo" required />
+    <input type="email" name="email" required />
   </label>
 
   
