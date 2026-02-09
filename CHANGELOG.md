@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.1...v1.4.0) (2026-02-09)
+
+
+### Features
+
+* updating api path ([5475c34](https://github.com/kaianolevine/wcsmn.com/commit/5475c34d2b77ffacfeacd11688a0c2476d697ee1))
+
 ## [1.3.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.0...v1.3.1) (2026-02-03)
 
 
