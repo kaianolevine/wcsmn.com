@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.4.0...v1.4.1) (2026-02-09)
+
+
+### Bug Fixes
+
+* Fixing contact form ([7659313](https://github.com/kaianolevine/wcsmn.com/commit/7659313d55a761b8904bbf2efca3598a2d24b91c))
+
 ## [1.4.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.1...v1.4.0) (2026-02-09)
 
 
