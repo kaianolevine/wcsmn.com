@@ -155,6 +155,63 @@ npm run build
 
 ------------------------------------------------------------------------
 
+# 🚢 Releases & Versioning
+
+Managed with [Release Please](https://github.com/googleapis/release-please)
+
+This project uses lightweight release management via Git commits and tags.
+
+## Commit Strategy
+
+- Small, focused commits are preferred.
+- Each commit should represent a logical change.
+- Commit messages should clearly describe *what* changed and *why*.
+
+Recommended format:
+
+- feat: add new page or feature
+- fix: bug fixes or corrections
+- style: visual or formatting changes
+- docs: documentation updates
+- refactor: structural changes without behavior change
+- chore: maintenance tasks
+
+## Release Tags
+
+Releases are tracked using Git tags.
+
+Typical workflow:
+
+1. Merge completed work into `main`.
+2. Verify Cloudflare Pages deployment succeeded.
+3. Create a release tag:
+
+```
+git tag vX.Y.Z
+```
+
+4. Push the tag:
+
+```
+git push origin vX.Y.Z
+```
+
+Versioning guideline:
+
+- MAJOR — breaking structural changes
+- MINOR — new features or significant additions
+- PATCH — small fixes or updates
+
+Example:
+
+```
+v1.2.0
+```
+
+Tags provide historical checkpoints and allow easy rollback if necessary.
+
+------------------------------------------------------------------------
+
 # 🌍 Deployment
 
 Deployment is fully automated via Cloudflare Pages.
