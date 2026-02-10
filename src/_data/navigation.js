@@ -1,10 +1,6 @@
 export default {
   top: [
     {
-      text: 'Community Resources',
-      url: '/community-resources/'
-    },
-    {
       text: 'Organizations',
       url: '/organizations/',
       submenu: [
@@ -57,12 +53,16 @@ export default {
       ]
     },
     {
-      text: 'Contact Us',
-      url: '/contact/'
+      text: 'Community Resources',
+      url: '/community-resources/'
     },
     {
       text: 'FAQ',
       url: '/faq/'
+    },
+    {
+      text: 'Contact Us',
+      url: '/contact/'
     },
   ],
   bottom: [
