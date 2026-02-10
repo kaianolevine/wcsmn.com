@@ -35,8 +35,34 @@ export default {
       ]
     },
     {
+      text: 'Contributions',
+      url: '/contributions/',
+      submenu: [
+        {
+          text: 'Contributors',
+          url: '/contributions/contributors/'
+        },
+        {
+          text: 'How To Contribute',
+          url: '/contributions/how-to-contribute/'
+        },
+        {
+          text: 'Add Event',
+          url: '/contributions/add-event/'
+        },
+        {
+          text: 'Add Organization',
+          url: '/contributions/add-organization/'
+        }
+      ]
+    },
+    {
       text: 'Contact Us',
       url: '/contact/'
+    },
+    {
+      text: 'FAQ',
+      url: '/faq/'
     },
   ],
   bottom: [
