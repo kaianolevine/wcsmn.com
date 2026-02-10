@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.4.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.4.0...v1.4.1) (2026-02-09)
+
+
+### Bug Fixes
+
+* Fixing contact form ([7659313](https://github.com/kaianolevine/wcsmn.com/commit/7659313d55a761b8904bbf2efca3598a2d24b91c))
+
+## [1.4.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.1...v1.4.0) (2026-02-09)
+
+
+### Features
+
+* updating api path ([5475c34](https://github.com/kaianolevine/wcsmn.com/commit/5475c34d2b77ffacfeacd11688a0c2476d697ee1))
+
+## [1.3.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.3.0...v1.3.1) (2026-02-03)
+
+
+### Bug Fixes
+
+* color anf formatting ([e9ed3c6](https://github.com/kaianolevine/wcsmn.com/commit/e9ed3c6341f1c1944c4589c27836180700569760))
+
+## [1.3.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.1...v1.3.0) (2026-02-03)
+
+
+### Features
+
+* contact form functional ([36213ac](https://github.com/kaianolevine/wcsmn.com/commit/36213acd304ed2148201abe280762f3f6dea7586))
+* contact form functional ([4e5ea17](https://github.com/kaianolevine/wcsmn.com/commit/4e5ea175291f07352547a37168485a3319dd7a2e))
+
+## [1.2.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.2.0...v1.2.1) (2026-01-29)
+
+
+### Bug Fixes
+
+* adding removed file ([e6413c5](https://github.com/kaianolevine/wcsmn.com/commit/e6413c52cf6da33ed4869f401594566cfd2756d5))
+
 ## [1.2.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.1.0...v1.2.0) (2026-01-28)
 
 
