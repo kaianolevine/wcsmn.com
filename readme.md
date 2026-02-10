@@ -1,33 +1,77 @@
 # wcsmn.com
 
-This repository contains the source for **wcsmn.com**, a static website built with **Eleventy (11ty)** and deployed via **Cloudflare Pages**.
+This repository contains the source for **wcsmn.com**, a static-first
+website built with:
 
-The project is intentionally kept **simple, static-first, and low-maintenance**, while still leaving room to grow into forms, APIs, and richer interactivity when needed.
+-   Eleventy (11ty)
+-   Eleventy Excellent starter
+-   Cloudflare Pages
 
----
+The design philosophy emphasizes:
 
-## 🌐 Live Site
+-   Simplicity
+-   Static-first architecture
+-   Minimal maintenance overhead
+-   Future scalability without premature complexity
 
-The site is automatically deployed from the `main` branch and available at:
+------------------------------------------------------------------------
 
-➡️ <https://wcsmn-com.pages.dev/>
+# 🌐 Live Site
 
-This deployment is managed by **Cloudflare Pages** and updates on every successful build.
+Primary domain:
 
----
+https://www.wcsmn.com
 
+Cloudflare Pages deployment:
 
-## 🚀 Tech Stack
+https://wcsmn-com.pages.dev/ (redirects to above)
 
-- **Eleventy (11ty)** – static site generator
-- **Eleventy Excellent** – starter base and conventions
-- **Markdown-first content**
-- **Cloudflare Pages** – hosting & deployment
-- **GitHub Actions** – CI / build automation
+Deployments occur automatically from the `main` branch.
 
-> Deeper upstream starter details live in: `eleventy-excellent/README.md`
+Preview Deployments:
 
----
+Cloudflare Pages automatically creates preview deployments for non-main branches. Any branch pushed to the repository will generate a preview site available at:
+
+https://<branch_name>.wcsmn-com.pages.dev
+
+This allows testing changes in isolation before merging into `main`.
+
+------------------------------------------------------------------------
+
+# 🧭 Architecture Overview
+
+High-level flow:
+
+Content (Markdown)\
+→ Eleventy build process\
+→ Static HTML/CSS/JS output\
+→ Cloudflare Pages deployment\
+→ CDN distribution
+
+Core principle:
+
+> Prefer build-time generation over runtime logic.
+
+------------------------------------------------------------------------
+
+# 🚀 Tech Stack
+
+Core:
+
+-   Eleventy (11ty)
+-   Eleventy Excellent
+-   Markdown-first content
+-   Cloudflare Pages
+-   GitHub (source control + CI)
+
+Future-ready (not currently implemented):
+
+-   Cloudflare Workers
+-   Static JSON pipelines
+-   Forms integrations (Brevo, APIs)
+-   Client-side widgets
+
+------------------------------------------------------------------------
 
 ## 📁 Project Structure
 
@@ -45,117 +89,169 @@ wcsmn.com/
 ├── package.json            # Build scripts & dependencies
 └── README.md
 ```
+------------------------------------------------------------------------
 
-### Structure principles
+# 🧠 Design Philosophy
 
-- **Content lives in `src/`**
-- **Build system is replaceable**
-- **Upstream starter is preserved but isolated**
-- **Minimal magic at the root**
+## Static First
 
----
-
-## 🧭 Philosophy & Norms
-
-### 1) Static first
 If something can be:
-- pre-rendered
-- stored as JSON
-- embedded at build time
 
-…it should be.
+-   pre-rendered
+-   generated during build
+-   stored as static JSON
 
-### 2) Low managed overhead
-- No always-on servers
-- No databases unless unavoidable
-- Prefer GitHub + Cloudflare primitives
+...it should remain static.
 
-### 3) Content > framework
-- Markdown is the primary authoring format
-- Layouts and styling support content, not the other way around
+Benefits:
 
-### 4) Escape hatches are allowed
-When needed:
-- Cloudflare Workers
-- Third-party services (Brevo, Google Sheets, etc.)
-- APIs added *alongside* static content
+-   performance
+-   reliability
+-   minimal infrastructure
+-   reduced operational overhead
 
----
+## Content \> Framework
 
-## 🛠 Getting Started
+-   Markdown drives content.
+-   Layouts support structure.
+-   Styling remains centralized and minimal.
 
-### Install dependencies
+## Progressive Enhancement
 
-```bash
+Add dynamic features only when justified.
+
+Expansion path:
+
+1.  Static JSON generation
+2.  Client-side rendering
+3.  Cloudflare Workers
+4.  External backend services
+
+------------------------------------------------------------------------
+
+# 🛠 Local Development
+
+Install dependencies:
+
+```text
 npm install
 ```
 
-### Run locally
+Run development server:
 
-```bash
+```text
 npm start
 ```
 
-### Production build
+Local preview:
 
-```bash
+http://localhost:8080
+
+Production build:
+
+```text
 npm run build
 ```
 
----
+------------------------------------------------------------------------
 
-## 🌍 Deployment
+# 🌍 Deployment
 
-- Deploys automatically via **Cloudflare Pages**
-- Builds are triggered from GitHub
-- No manual deployment steps required
+Deployment is fully automated via Cloudflare Pages.
 
-Cloudflare Pages handles:
-- build output storage
-- CDN distribution
-- versioned deploys
-- rollbacks
+Workflow:
 
----
+1.  Push to main
+2.  Cloudflare triggers build
+3.  Site deploys automatically
 
-## 🎨 Styling & Layout
+Cloudflare provides:
 
-Styling is intentionally:
-- centralized
-- boring
-- predictable
+-   CDN distribution
+-   preview builds
+-   versioned deploys
+-   rollback support
 
-If you’re looking for **where to change the look**:
-1. Start with global CSS in `src/assets/`
-2. Then layouts in `src/layouts/`
-3. Avoid page-specific tweaks unless you must
+------------------------------------------------------------------------
 
----
+# 🔁 Domain & Redirect Strategy
 
-## 🧩 Forms, APIs, and Dynamic Features
+Canonical domain:
 
-This repo is prepared—but not committed—to:
+https://www.wcsmn.com
 
-- Contact forms (e.g. Brevo, Workers, third-party endpoints)
-- JSON data rendering
-- Client-side widgets
-- Cloudflare Workers for light backend logic
+Supported domains (all redirect to canonical):
 
-The goal is **incremental enhancement**, not architectural lock-in.
+- mnwcs.com → https://www.wcsmn.com
+- www.mnwcs.com → https://www.wcsmn.com
+- wcsmn.com → https://www.wcsmn.com
 
----
+Additional enforced redirects:
 
-## 📚 Additional Documentation
+- HTTP → HTTPS
 
-- Architecture & design decisions: `docs/ARCHITECTURE.md`
-- When to add backend logic: `docs/WHEN_TO_ADD_BACKEND.md`
+Redirect logic handled via Cloudflare rules to ensure a single canonical URL for SEO, caching consistency, and predictable routing.
 
----
+------------------------------------------------------------------------
 
-## 🧠 Guiding Question
+# 🎨 Styling Strategy
 
-Before adding anything new, ask:
+Goals:
 
-> “Can this be static?”
+-   predictable
+-   centralized
+-   maintainable
 
-If the answer is **yes** or **maybe**, start there.
+Primary locations:
+
+1.  src/assets/ --- global styles
+2.  src/layouts/ --- structure
+
+Avoid page-specific styling unless required.
+
+------------------------------------------------------------------------
+
+# 🧩 Dynamic Features Status
+
+Current state:
+
+-   No custom widgets
+-   No API calls
+-   No runtime backend logic
+
+All content is static.
+
+------------------------------------------------------------------------
+
+# 🔮 Future Expansion Guidelines
+
+When adding features:
+
+1.  Ask: "Can this be static?"
+2.  Prefer build-time generation.
+3.  Add Workers only when necessary.
+4.  Avoid introducing databases prematurely.
+
+------------------------------------------------------------------------
+
+# 📚 Documentation
+
+Additional documentation lives in:
+
+docs/ARCHITECTURE.md docs/WHEN_TO_ADD_BACKEND.md
+
+------------------------------------------------------------------------
+
+# 🧱 Adding New Pages
+
+Typical workflow:
+
+1.  Create Markdown file in:
+
+src/pages/
+
+2.  Add frontmatter.
+3.  Assign layout.
+4.  Run local dev server to preview.
+
+------------------------------------------------------------------------
