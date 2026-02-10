@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.4.1...v1.5.0) (2026-02-10)
+
+
+### Features
+
+* starting point for open source ([d285674](https://github.com/kaianolevine/wcsmn.com/commit/d2856746442d6450db4335f90ce6b5f8bcac35d6))
+
 ## [1.4.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.4.0...v1.4.1) (2026-02-09)
 
 
