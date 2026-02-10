@@ -24,9 +24,17 @@ https://www.wcsmn.com
 
 Cloudflare Pages deployment:
 
-https://wcsmn-com.pages.dev/
+https://wcsmn-com.pages.dev/ (redirects to above)
 
 Deployments occur automatically from the `main` branch.
+
+Preview Deployments:
+
+Cloudflare Pages automatically creates preview deployments for non-main branches. Any branch pushed to the repository will generate a preview site available at:
+
+https://<branch_name>.wcsmn-com.pages.dev
+
+This allows testing changes in isolation before merging into `main`.
 
 ------------------------------------------------------------------------
 
@@ -125,11 +133,15 @@ Expansion path:
 
 Install dependencies:
 
+```text
 npm install
+```
 
 Run development server:
 
+```text
 npm start
+```
 
 Local preview:
 
@@ -137,7 +149,9 @@ http://localhost:8080
 
 Production build:
 
+```text
 npm run build
+```
 
 ------------------------------------------------------------------------
 
@@ -166,12 +180,17 @@ Canonical domain:
 
 https://www.wcsmn.com
 
-Expected redirects:
+Supported domains (all redirect to canonical):
 
--   wcsmn.com → www.wcsmn.com
--   HTTP → HTTPS
+- mnwcs.com → https://www.wcsmn.com
+- www.mnwcs.com → https://www.wcsmn.com
+- wcsmn.com → https://www.wcsmn.com
 
-Redirect logic handled via Cloudflare rules.
+Additional enforced redirects:
+
+- HTTP → HTTPS
+
+Redirect logic handled via Cloudflare rules to ensure a single canonical URL for SEO, caching consistency, and predictable routing.
 
 ------------------------------------------------------------------------
 
