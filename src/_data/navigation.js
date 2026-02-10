@@ -53,7 +53,7 @@ export default {
       ]
     },
     {
-      text: 'Community Resources',
+      text: 'Resources',
       url: '/community-resources/'
     },
     {
