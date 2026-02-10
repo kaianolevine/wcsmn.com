@@ -2,7 +2,7 @@
 title: 'Frequently Asked Questions'
 description: '.'
 date: "Last Modified"
-permalink: /contributions/contributors/index.html
+permalink: /faq/index.html
 layout: page
 ---
 
