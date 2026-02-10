@@ -1,13 +1,9 @@
 <footer class="site-footer mt-l-xl p-s-m">
-  <div class="wrapper">
+  <div class="wrapper" style="text-align: center;">
+<small>Please note that most of the information on the calendar is NOT maintained by anyone involved with this project, but instead managed by each individual organization (owner). Please always check with the organization's website about specifics on schedule changes and/or cancelations.</small>
+    {% include 'partials/theme-switch.njk' %}
     <div class="cluster gutter-xs">
       <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
-        <p>
-          Please note that most of the information on the calendar is NOT maintained by anyone 
-          involved with this project, but instead managed by each individual organization (owner). 
-          Please always check with the organization's website about specifics on schedule changes 
-          and/or cancelations. 
-        </p>
         &copy; {% year %}
         <a href="/" {{ indicateActiveHome }}
           ><span class="font-display">{{ meta.siteName }}</span> 
@@ -41,16 +37,14 @@
       </nav>
     </div>
 
-    {% include 'partials/theme-switch.njk' %}
-
-    <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
-      Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> and
+    <aside class="creator | cluster gutter-2xs text-step-min-1">
+      Made with 
       <a class="no-indicator" href="https://www.11ty.dev/">
         <span class="visually-hidden">Eleventy</span>
         {% svg "misc/11ty" %}
       </a>
       by
-      <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a>
+      <a href="/contributions/contributors/index.html">Our Contributors</a>
     </aside>
   </div>
 </footer>

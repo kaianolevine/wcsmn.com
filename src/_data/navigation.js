@@ -1,10 +1,6 @@
 export default {
   top: [
     {
-      text: 'Community Resources',
-      url: '/community-resources/'
-    },
-    {
       text: 'Organizations',
       url: '/organizations/',
       submenu: [
@@ -33,6 +29,36 @@ export default {
           url: '/organizations/mn-wcs-dance-club/'
         }
       ]
+    },
+    {
+      text: 'Contributions',
+      url: '/contributions/',
+      submenu: [
+        {
+          text: 'Contributors',
+          url: '/contributions/contributors/'
+        },
+        {
+          text: 'How To Contribute',
+          url: '/contributions/how-to-contribute/'
+        },
+        {
+          text: 'Add Event',
+          url: '/contributions/add-event/'
+        },
+        {
+          text: 'Add Organization',
+          url: '/contributions/add-organization/'
+        }
+      ]
+    },
+    {
+      text: 'Resources',
+      url: '/community-resources/'
+    },
+    {
+      text: 'FAQ',
+      url: '/faq/'
     },
     {
       text: 'Contact Us',
