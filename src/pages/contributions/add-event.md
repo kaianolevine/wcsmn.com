@@ -5,4 +5,6 @@ date: "Last Modified"
 permalink: /contributions/add-event/index.html
 layout: page
 ---
-Coming Soon
+More information about submitting events is coming soon.
+
+In the meantime, if you would like to have an event added to the calendar, please submit your information through our [contact page](/contact/).

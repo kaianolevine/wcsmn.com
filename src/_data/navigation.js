@@ -9,12 +9,8 @@ export default {
           url: '/organizations/mn-swing-safety/'
         },
         {
-          text: 'West Cone Swing',
-          url: '/organizations/west-cone-swing/'
-        },
-        {
-          text: 'TC Rebels',
-          url: '/organizations/tc-rebels/'
+          text: 'MN WCS Dance Club',
+          url: '/organizations/mn-wcs-dance-club/'
         },
         {
           text: 'Swing in the North',
@@ -25,9 +21,13 @@ export default {
           url: '/organizations/swingesota/'
         },
         {
-          text: 'MN WCS Dance Club',
-          url: '/organizations/mn-wcs-dance-club/'
-        }
+          text: 'TC Rebels',
+          url: '/organizations/tc-rebels/'
+        },
+        {
+          text: 'West Cone Swing',
+          url: '/organizations/west-cone-swing/'
+        },
       ]
     },
     {
