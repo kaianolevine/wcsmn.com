@@ -35,10 +35,6 @@ export default {
       url: '/contributions/',
       submenu: [
         {
-          text: 'Contributors',
-          url: '/contributions/contributors/'
-        },
-        {
           text: 'How To Contribute',
           url: '/contributions/how-to-contribute/'
         },
@@ -49,7 +45,11 @@ export default {
         {
           text: 'Add Organization',
           url: '/contributions/add-organization/'
-        }
+        },
+        {
+          text: 'Contributors',
+          url: '/contributions/contributors/'
+        },
       ]
     },
     {
