@@ -8,6 +8,9 @@ src/_includes/scripts
 src/_layouts/
 src/_includes/
 src/common/
+src/assets/svg/
+src/assets/scripts/
+src/assets/fonts/
 
 # cache
 .cache
