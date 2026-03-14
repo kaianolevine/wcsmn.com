@@ -5,6 +5,9 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
+src/_layouts/
+src/_includes/
+src/common/
 
 # cache
 .cache
