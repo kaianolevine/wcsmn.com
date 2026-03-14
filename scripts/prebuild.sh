@@ -36,7 +36,8 @@ cp -r $SHARED/common/. src/common/
 cp -r $SHARED/assets/svg/. src/assets/svg/
 cp -r $SHARED/assets/scripts/. src/assets/scripts/
 cp -r $SHARED/assets/fonts/. src/assets/fonts/
-cp -r $SHARED/assets/css/. src/assets/css/
+cp -r $SHARED/assets/css/global src/assets/css/global
+cp -r $SHARED/assets/css/local src/assets/css/local
 cp $SHARED/_data/helpers.js src/_data/helpers.js
 cp -r $SHARED/_data/designTokens/. src/_data/designTokens/
 
