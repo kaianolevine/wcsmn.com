@@ -2,7 +2,6 @@ import sharedConfig from '@wcs-mn/eleventy-excellent-shared';
 
 export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(sharedConfig);
-  eleventyConfig.addBundle('css', {hoist: false});
 
   // site-specific passthrough copies
   eleventyConfig.addPassthroughCopy('src/assets/wcsmn/');
