@@ -1,12 +1,20 @@
 <footer class="site-footer mt-l-xl p-s-m">
-  <div class="wrapper">
+  <div class="wrapper" style="text-align: center;">
+<small>
+Please note that most calendar information is provided by individual organizations and event owners, and may change without notice.<br><br>
+
+While we do our best to keep things up to date, schedules and details are ultimately managed by each organization. We recommend checking the official event or organizer website for the most current information, including schedule updates or cancellations.<br><br>
+
+If you notice missing or incorrect information, please reach out through our <a href="/contact/index.html">Contact page</a> so we can help keep this resource accurate for the community.
+</small>
+    {% include 'partials/theme-switch.njk' %}
     <div class="cluster gutter-xs">
       <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
         &copy; {% year %}
         <a href="/" {{ indicateActiveHome }}
-          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
+          ><span class="font-display">{{ meta.siteName }}</span>
+          <small>Version: {{ build.version }} · {{ build.commit }}</small>
         </a>
-
         {% for item in navigation.bottom %}
           <a
             href="{{ item.url }}"
@@ -20,23 +28,9 @@
           >
         {% endfor %}
       </nav>
-
       <nav class="cluster" aria-label="{{ meta.navigation.ariaPlatforms }}">
-        <!-- gets the first item from the feed loop set in meta -->
-        <a
-          href="{{ meta.blog.feedLinks[0].url }}"
-          rel="alternate"
-          type="{{ meta.blog.feedLinks[0].type }}"
-          class="button"
-          data-icon
-        >
-          <span class="visually-hidden">{{ meta.blog.feedLinks[0].title }}</span>
-          {% svg "misc/rss" %}
-        </a>
-
         {% for key, value in personal.platforms %}
           {% if value != "" %}
-            <!-- regular platforms -->
             <a class="no-indicator button" data-icon href="{{ value }}" rel="me">
               <span class="visually-hidden">{{ key | capitalize }}</span>
               {% svg 'platform/' + key %}
@@ -45,17 +39,9 @@
         {% endfor %}
       </nav>
     </div>
-
-    {% include 'partials/theme-switch.njk' %}
-
-    <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
-      Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> and
-      <a class="no-indicator" href="https://www.11ty.dev/">
-        <span class="visually-hidden">Eleventy</span>
-        {% svg "misc/11ty" %}
-      </a>
-      by
-      <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a>
+    <aside class="creator | cluster gutter-2xs text-step-min-1">
+      Made with
+      <a href="/contributions/contributors/index.html">Our Contributors</a>
     </aside>
   </div>
 </footer>
