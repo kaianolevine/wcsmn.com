@@ -1,0 +1,24 @@
+
+	{%- if eleventy.env.runMode === "serve" %}
+		<!-- External CSS for local dev (refresh without page reload) -->
+		<link rel="stylesheet" href="{% getBundleFileUrl "css", "global" %}">
+		<link rel="stylesheet" href="{% getBundleFileUrl "css", "local" %}">
+	{%- else  %}
+		<!-- Inlined CSS (fastest site performance in production)  -->
+		<style>{% getBundle "css", "global" %}</style>
+		<style>{% getBundle "css", "local" %}</style>
+	{%- endif %}
+
+	{% css "global" %}{% include "css/global.css" %}{% endcss %}
+	{% css "local" %}
+		{% include "css/custom-card.css" %}
+		{% include "css/details.css" %}
+		{% include "css/footnotes.css" %}
+		{% include "css/forms.css" %}
+		{% include "css/gallery.css" %}
+		{% include "css/nav-main-drawer-cls.css" %}
+		{% include "css/pagination.css" %}
+		{% include "css/post.css" %}
+		{% include "css/styleguide.css" %}
+		{% include "css/table.css" %}
+	{% endcss %}

@@ -15,3 +15,5 @@ cp -r $SHARED/_data/designTokens src/_data/designTokens
 # Restore site-specific overrides (these overwrite the shared copies)
 # variables.css is site-specific — restore from git
 git checkout -- src/assets/css/global/base/variables.css
+# css-inline.njk loads all local CSS into the "local" bundle — restore from git
+git checkout -- src/_includes/head/css-inline.njk
