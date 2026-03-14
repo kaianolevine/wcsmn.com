@@ -11,6 +11,8 @@ src/common/
 src/assets/svg/
 src/assets/scripts/
 src/assets/fonts/
+src/_data/helpers.js
+src/_data/designTokens/
 
 # cache
 .cache
