@@ -16,7 +16,7 @@
     "colors": "node ./src/_config/setup/create-colors.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
-    "prebuild:11ty": "cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/_layouts src/_layouts && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/_includes src/_includes && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/common src/common && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/assets/svg src/assets/svg && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/assets/scripts src/assets/scripts && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/assets/fonts src/assets/fonts && cp node_modules/@wcs-mn/eleventy-excellent-shared/src/_data/helpers.js src/_data/helpers.js && cp -r node_modules/@wcs-mn/eleventy-excellent-shared/src/_data/designTokens src/_data/designTokens",
+    "prebuild:11ty": "sh scripts/prebuild.sh",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty",
