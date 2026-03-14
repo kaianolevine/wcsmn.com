@@ -5,17 +5,6 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
-src/_layouts/
-src/_includes/*
-!src/_includes/head/
-src/_includes/head/*
-!src/_includes/head/css-inline.njk
-src/common/
-src/assets/svg/
-src/assets/scripts/
-src/assets/fonts/
-src/_data/helpers.js
-src/_data/designTokens/
 
 # cache
 .cache
