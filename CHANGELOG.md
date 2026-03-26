@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.5.0...v1.6.0) (2026-03-26)
+
+
+### Features
+
+* updating swing safety and api url ([1aa702e](https://github.com/kaianolevine/wcsmn.com/commit/1aa702e13907c6cb0d44e222f8a6552b632312c4))
+
+
+### Bug Fixes
+
+* adding redirect thank you page ([1061947](https://github.com/kaianolevine/wcsmn.com/commit/1061947a2bcfe0f38ddb69bb5172e2824fe13137))
+
 ## [1.5.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.4.1...v1.5.0) (2026-02-10)
 
 
