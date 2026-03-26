@@ -81,6 +81,7 @@ layout: page
 <form method="POST" action="https://api.kaianolevine.com/v1/contact">
   <input type="hidden" name="originSite" value="wcsmn.com" />
   <input type="hidden" name="type" value="contact" />
+  <input type="hidden" name="redirect" value="true" />
   <label>
     First name
     <input type="text" name="firstName" required />
