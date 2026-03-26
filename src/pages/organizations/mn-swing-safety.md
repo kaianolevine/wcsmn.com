@@ -7,6 +7,7 @@ layout: page
 ---
 The mission of MN Swing Safety is to build a safe, just culture within the Minnesota west coast swing community through education, conversation, and trauma-informed intervention.
 
+[Linktree Resources - Click Here](https://linktr.ee/MNSwingSafety)
 [MN Swing Safety Incident Reporting - Click Here](https://forms.gle/Ukbo3evZ2NbtCA358)
 
 Contact Us - [MNSwingSafety@gmail.com]
