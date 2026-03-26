@@ -12,10 +12,9 @@ If you notice missing or incorrect information, please reach out through our <a 
       <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
         &copy; {% year %}
         <a href="/" {{ indicateActiveHome }}
-          ><span class="font-display">{{ meta.siteName }}</span> 
+          ><span class="font-display">{{ meta.siteName }}</span>
           <small>Version: {{ build.version }} · {{ build.commit }}</small>
         </a>
-
         {% for item in navigation.bottom %}
           <a
             href="{{ item.url }}"
@@ -29,11 +28,9 @@ If you notice missing or incorrect information, please reach out through our <a 
           >
         {% endfor %}
       </nav>
-
       <nav class="cluster" aria-label="{{ meta.navigation.ariaPlatforms }}">
         {% for key, value in personal.platforms %}
           {% if value != "" %}
-            <!-- regular platforms -->
             <a class="no-indicator button" data-icon href="{{ value }}" rel="me">
               <span class="visually-hidden">{{ key | capitalize }}</span>
               {% svg 'platform/' + key %}
@@ -42,14 +39,8 @@ If you notice missing or incorrect information, please reach out through our <a 
         {% endfor %}
       </nav>
     </div>
-
     <aside class="creator | cluster gutter-2xs text-step-min-1">
-      Made with 
-      <a class="no-indicator" href="https://www.11ty.dev/">
-        <span class="visually-hidden">Eleventy</span>
-        {% svg "misc/11ty" %}
-      </a>
-      by
+      Made with
       <a href="/contributions/contributors/index.html">Our Contributors</a>
     </aside>
   </div>

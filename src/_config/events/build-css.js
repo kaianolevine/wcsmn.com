@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import postcss from 'postcss';
 import postcssImport from 'postcss-import';
 import postcssImportExtGlob from 'postcss-import-ext-glob';
@@ -8,9 +9,14 @@ import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 import fg from 'fast-glob';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const sharedCssRoot = path.resolve(process.cwd(), 'node_modules/@wcs-mn/eleventy-excellent-shared/src/assets/css');
+const siteCssRoot = path.resolve(process.cwd(), 'src/assets/css');
+
+const fileExists = async p => fs.access(p).then(() => true).catch(() => false);
+
 const buildCss = async (inputPath, outputPaths) => {
   const inputContent = await fs.readFile(inputPath, 'utf-8');
-
   const result = await postcss([
     postcssImportExtGlob,
     postcssImport,
@@ -23,25 +29,27 @@ const buildCss = async (inputPath, outputPaths) => {
     await fs.mkdir(path.dirname(outputPath), {recursive: true});
     await fs.writeFile(outputPath, result.css);
   }
-
   return result.css;
 };
 
 export const buildAllCss = async () => {
   const tasks = [];
 
-  tasks.push(buildCss('src/assets/css/global/global.css', ['src/_includes/css/global.css']));
+  // Global CSS: prefer site-local, fall back to shared
+  const siteGlobal = path.join(siteCssRoot, 'global/global.css');
+  const sharedGlobal = path.join(sharedCssRoot, 'global/global.css');
+  const globalEntry = (await fileExists(siteGlobal)) ? siteGlobal : sharedGlobal;
+  tasks.push(buildCss(globalEntry, ['src/assets/css/global.css']));
 
-  const localCssFiles = await fg(['src/assets/css/local/**/*.css']);
-  for (const inputPath of localCssFiles) {
-    const baseName = path.basename(inputPath);
-    tasks.push(buildCss(inputPath, [`src/_includes/css/${baseName}`]));
+  // Local CSS: merge shared + site-local, site-local wins on filename collision
+  const sharedLocal = await fg([`${sharedCssRoot}/local/**/*.css`]);
+  const siteLocal = await fg([`${siteCssRoot}/local/**/*.css`]);
+  const localMap = new Map();
+  for (const f of [...sharedLocal, ...siteLocal]) {
+    localMap.set(path.basename(f), f);
   }
-
-  const componentCssFiles = await fg(['src/assets/css/components/**/*.css']);
-  for (const inputPath of componentCssFiles) {
-    const baseName = path.basename(inputPath);
-    tasks.push(buildCss(inputPath, [`dist/assets/css/components/${baseName}`]));
+  for (const [baseName, inputPath] of localMap) {
+    tasks.push(buildCss(inputPath, [`src/assets/css/${baseName}`]));
   }
 
   await Promise.all(tasks);
