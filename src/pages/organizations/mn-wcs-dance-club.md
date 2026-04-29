@@ -14,14 +14,13 @@ layout: page
   </iframe>
 </div>
 
-The purpose of the Minnesota West Coast Swing Dance Club since the Club’s inception on March 21, 1982 has been to preserve, promote, and expand West Coast Swing Dancing. The Club was informally operated that first year by a committee. They danced in various places, i.e., Capp Towers, O’Gara’s, Good Templar Hall, Kellogg Square, Radisson Hotel and others. A dance was held about once every six weeks.
+The mission of the Minnesota West Coast Swing Dance Club is to foster an inclusive, welcoming community where dancers of all levels can connect, grow, and celebrate the art of West Coast Swing through quality education and social dance opportunities. The Minnesota West Coast Swing Dance Club (MWCSDC) was formed on March 21, 1982 - making it the oldest WCS organization in the state of Minnesota. MWCSDC holds two dances each month, on the 2nd and 4th Fridays, beginning with a social dance lesson taught by local instructors, and a social variety dance with music provided by various DJs. In addition to regularly scheduled dances, we host a member appreciation dance each January, our anniversary dance in May, and a holiday dance in December. All skill levels are always welcome and a partner is never necessary! 
 
-On June 6, 1983 an organizational meeting was held, a proposed charter was discussed and accepted and officers elected. The first dance at our current home, the B-Dale Club in Roseville, was held in January of 1984. Articles of incorporation were filed with the State of Minnesota in November, 1986.
+2nd & 4th Friday Dances are held at the B-Dale Club: 
+2100 Dale Street N, Roseville, MN 55113
 
-Many of the Club’s activities are traditions started by early members and Club officers. We currently have two dances each month, the 2nd and 4th Friday, with a dance lesson by local instructors and music supplied by various DJs. Also included free at each dance are desserts and coffee. We have an anniversary dinner dance, special holiday dance party, picnic, and sponsor WCS workshops with nationally known instructors. All skill levels are welcome.
+For more information, please check out: 
+Website: https://mwcsdc.com/ 
+Facebook: https://www.facebook.com/mwcsdc 
+Instagram: @mwcsdc
 
-For more information visit our web site at [https://mwcsdc.com/]
-
-MNWCSDC Dances are held at the following locations
-B-Dale Club: 2100 Dale St N., Roseville, MN 55113
-Starks Saloon: 3125 Dodd Rd, Eagan, MN 55121
