@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.6.1](https://github.com/kaianolevine/wcsmn.com/compare/v1.6.0...v1.6.1) (2026-04-30)
+
+
+### Bug Fixes
+
+* add event ([dd090a8](https://github.com/kaianolevine/wcsmn.com/commit/dd090a8a0bd181d1c71885d803de59b5f000c94f))
+* add event ([0a354e3](https://github.com/kaianolevine/wcsmn.com/commit/0a354e305aa4d707776a2b4f838a32d1c0af8501))
+* add event ([0e6993d](https://github.com/kaianolevine/wcsmn.com/commit/0e6993d4bfd41d09829757ae829d1d4fa24a91b8))
+* jtswing team information ([edfb0b5](https://github.com/kaianolevine/wcsmn.com/commit/edfb0b5753d8f88c308cbdca956ba3d0a42e0bf3))
+* mn wcs dc description ([55973f7](https://github.com/kaianolevine/wcsmn.com/commit/55973f7e145056b1910accdb4f1931d23199a0d0))
+
 ## [1.6.0](https://github.com/kaianolevine/wcsmn.com/compare/v1.5.0...v1.6.0) (2026-03-26)
 
 
