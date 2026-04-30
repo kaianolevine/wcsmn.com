@@ -5,6 +5,8 @@ date: "Last Modified"
 permalink: /contributions/add-event/index.html
 layout: page
 ---
-More information about submitting events is coming soon.
+To get your event added to the WCS MN calendar:
+-Create a calendar event
+-Invite minnesota.wcs@gmail.com to the event
 
-In the meantime, if you would like to have an event added to the calendar, please submit your information through our [contact page](/contact/).
+If you experience any isues, please reach out through our [contact page](/contact/).
