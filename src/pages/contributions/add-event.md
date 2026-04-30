@@ -9,4 +9,4 @@ To get your event added to the WCS MN calendar:
 -Create a calendar event
 -Invite minnesota.wcs@gmail.com to the event
 
-If you experience any isues, please reach out through our [contact page](/contact/).
+If you experience any issues, please reach out through our [contact page](/contact/).
