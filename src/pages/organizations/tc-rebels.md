@@ -11,7 +11,7 @@ titleClass: text-[#cc0000] tracking-wider font-bold
   .rebels-theme {
     --rebels-red: #cc0000;
   }
-  .call-to-action-btn {
+  .rebels-theme .call-to-action-btn {
     display: inline-block;
     background-color: var(--rebels-red);
     color: #ffffff;
@@ -25,6 +25,11 @@ titleClass: text-[#cc0000] tracking-wider font-bold
   .call-to-action-btn:hover {
     background-color: #000000;
   }
+  .call-to-action-btn:focus-visible {
+    background-color: #000000;
+    outline: 3px solid #ffffff;
+    outline-offset: 2px;
+  }
 </style>
 
 <div class="rebels-theme">
@@ -36,13 +41,15 @@ titleClass: text-[#cc0000] tracking-wider font-bold
   <div style="margin: 2rem 0; border: 2px solid #000; border-radius: 4px; overflow: hidden; max-width: 100%;">
     <iframe 
       src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FChicago&showPrint=0&title=TC%20Rebels&mode=AGENDA&src=dHdpbmNpdGllcy5yZWJlbHMyQGdtYWlsLmNvbQ&color=%23cc0000" 
+      title="TC Rebels event calendar"
+      loading="lazy"
       style="border:0; width:100%; height:400px;"
       frameborder="0"
       scrolling="yes">
     </iframe>
   </div>
 
-<a href="http://tcrebels.com/" class="call-to-action-btn">Visit Our Website for more details!</a>
+<a href="https://tcrebels.com/" class="call-to-action-btn">Visit Our Website for more details!</a>
 
 Our regular dances are held on the **1st and 3rd Fridays of the month** from 8:00 PM to 11:00 PM. They begin with an all-levels lesson from 8-8:30pm, with social dancing immediately following until 11pm.  The lesson is included with admission, and only requires knowledge of the basic west coast swing patterns.
 
@@ -75,7 +82,7 @@ We look forward to dancing with you soon!
 
 ---
 
-### Connect With Us
+### Connect With Us!
 
 * [Follow us on Facebook](https://www.facebook.com/tcrebels)
 * [Join our Email List](https://www.tcrebels.com/#email-list01)
