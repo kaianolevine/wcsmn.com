@@ -7,7 +7,7 @@ layout: page
 ---
 <div style="margin-top: 12px;">
   <iframe 
-    src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=America%2FChicago&mode=AGENDA&showPrint=0&showTabs=0&src=M2FiYWE3ZmEwMWVhM2YwM2NjMmFjNjI2OGZkNWY3MDU4NDI3NGQ5OGEzZmYzMGIwMWU1MTQxNTc5ZTczOGVlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e4c441" 
+    src="https://calendar.google.com/calendar/embed?src=mwcsdc%40gmail.com&ctz=America%2FChicago" 
     style="border:0; width:100%; height:700px;"
     frameborder="0"
     scrolling="no">
